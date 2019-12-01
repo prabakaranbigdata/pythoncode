@@ -1,0 +1,2 @@
+docker pull alluxio/alluxio-presto-sandbox
+docker run -d --shm-size 1G -p 19999:19999 -p 8080:8080 --name alluxio-presto-sandbox alluxio/alluxio-presto-sandbox
